@@ -1,0 +1,140 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('./sunimage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Coordinates page styles */
+.coordinates-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  background-image: url('./sunimage.jpg'); /* Background image for Coordinates page */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Weather page styles */
+.weather-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  background-image: url('./weather-bg.jpg'); /* Background image for Weather page */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Form styles */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #ccc;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #de5607;
+}
+
+.btn:hover {
+  background-color: #de5607;
+}
+
+/* Weather information styles */
+.current-weather {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.current-weather h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.details p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.weather-conditions h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.weather-conditions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.weather-conditions li {
+  margin-bottom: 10px;
+}
+
+.weather-conditions img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Error and loading styles */
+.error {
+  color: red;
+}
+
+.loading {
+  color: blue;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
