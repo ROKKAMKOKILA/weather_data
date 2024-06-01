@@ -39,7 +39,6 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   text-align: center;
-  background-image: url('./weather-bg.jpg'); /* Background image for Weather page */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
